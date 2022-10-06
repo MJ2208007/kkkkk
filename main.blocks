@@ -1,4 +1,19 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="D*G}eso6rpEJf4-.yWao">jog1</variable><variable id="d#y)YHj7H49=uD,(U+|r">jog2</variable></variables><block type="device_pin_event" id="6^nEZpelMM3*G6q_)*Uu" x="68" y="-22"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id="_!zo{-I1,etjCbBVQ|-J"><value name="number"><shadow type="math_number" id="M|U:S;Q:QZc`g_Q[uch%"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="q_`aqK4^H($=cxeF?60X"><value name="number"><shadow type="math_number" id="TFukr~%bJeaCI]|QF^}T"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="5e;ISV-mfVM)(aRdG3dL"><value name="number"><shadow type="math_number" id="Vdj:G#c6q^*H|q,4z;`T"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id="[!-3htjsTuC+8);r75+^"><value name="text"><shadow type="text" id="oL2cNmYQsBEKB?e,=[DA"><field name="TEXT">GO!!</field></shadow></value><next><block type="device_pause" id="J=|~af*O8nhkK^DZeVp["><value name="pause"><shadow type="timePicker" id="hsd}uDDZ@6O~r_)2PBjF"><field name="ms">100</field></shadow><block type="device_random" id="b42xbmO3M*LBfr$N$GUd"><value name="min"><shadow type="math_number" id="a^r$=]L4#WUCHoxe9~^("><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="DXi?96Ocu0}G1!HHyi2*"><field name="NUM">5000</field></shadow></value></block></value><next><block type="device_show_leds" id="P=TL.i4KwYkmDL0tXAEv"><field name="LEDS">`
+        # # . # # 
+        # # # # # 
+        . . # . . 
+        # # # # # 
+        # # . # #
+        `</field><next><block type="device_pause" id="mCY6e8P1_]PB^Q%ZDDxP"><value name="pause"><shadow type="timePicker" id="u*k$)F/cL1NJDDJJ?NE]"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="/ziyeq@;{[}UTbIXEAIP"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="/e7k:0q~EU?f(.M|7S^," x="20" y="20"></block><block type="device_forever" id="1+H[RhFxWJH:bGafXDcF" x="225" y="20"></block><block type="device_pin_event" id="X#l:A[mvXQBP2CW%!Wg?" x="388" y="407"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="variables_change" id="-7sXug`emV84[4ZEelI}"><field name="VAR" id="D*G}eso6rpEJf4-.yWao">jog1</field><value name="VALUE"><shadow type="math_number" id=":YW^^4,pjoMbXB,61^y7"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id=";-k;|):n3MVtB099[jmw"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # . . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_pause" id="au5fSiQK?p-aZg5BS()*"><value name="pause"><shadow type="timePicker" id="Y_gl27AN+nRTp1bo|YYb"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="_[+;p!x6tfeB7YB`(Kwy"></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="qB}LN.LAlbuT9:Hm-=8M" x="710" y="409"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="variables_change" id="1{M4lB,HMQ[-NY%{*9k+"><field name="VAR" id="d#y)YHj7H49=uD,(U+|r">jog2</field><value name="VALUE"><shadow type="math_number" id="{Q/y#}@,yG7+8+^5|4+E"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="6kX@g^YUxi~*`k~dxA=Z"><field name="LEDS">`
+        . . # # # 
+        . . # # # 
+        . . . # # 
+        . . . # # 
+        . . . # #
+        `</field><next><block type="device_pause" id="%Z/q0-]0TC%;fti5BNe("><value name="pause"><shadow type="timePicker" id="0h!@$kmp9Y$D3blvOQ0`"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="z1/6dzoQ-}u6foYSjPXL"></block></next></block></next></block></next></block></statement></block></xml>
